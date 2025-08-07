@@ -1,0 +1,19 @@
+.header-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.header-list-element{
+    padding: 16px 8px;
+    border: 3px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1000ms ease;
+}
+
+.header-list-element:hover{
+    background-color: black;
+    color: antiquewhite;
+}

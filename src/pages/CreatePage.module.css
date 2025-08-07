@@ -1,0 +1,10 @@
+.form-create{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+}
+
+.form-create input{
+    height: 50px;
+}
